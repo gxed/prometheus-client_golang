@@ -1,0 +1,48 @@
+{
+  "author": "whyrusleeping",
+  "bugs": {
+    "url": "https://github.com/prometheus/client_golang"
+  },
+  "gx": {
+    "dvcsimport": "github.com/prometheus/client_golang"
+  },
+  "gxDependencies": [
+    {
+      "hash": "QmcUuDu8FfWiUgZ8q3Rvvr4mwFTX5t1TKmVoWsB3FVHmhQ",
+      "name": "protobuf",
+      "version": "3.6.1"
+    },
+    {
+      "hash": "QmZCsCiFgoyxaG5tqCnfahNBQd6uhoqYqH64aNxF5vqvQp",
+      "name": "client_model",
+      "version": "2019.1.30"
+    },
+    {
+      "hash": "QmdCgRBcahWLSq3a2xdbcPb4ksrRREAhisYdfAaGfJ8hWb",
+      "name": "procfs",
+      "version": "0.0.0"
+    },
+    {
+      "hash": "QmUWsYPoyMsPqFbpMyXYPNQm9UJw7SBS58uy6QvAWGNjaW",
+      "name": "common",
+      "version": "0.2.0"
+    },
+    {
+      "hash": "QmRvYNctevGUW52urgmoFZscT6buMKqhHezLUS64WepGWn",
+      "name": "go-net",
+      "version": "0.2.0"
+    },
+    {
+      "hash": "QmbNinL4ErzM73BxQSNf8q2vPmAM4v3MNQM2DmDqDjt47D",
+      "name": "perks",
+      "version": "0.0.0"
+    }
+  ],
+  "gxVersion": "0.14.0",
+  "language": "go",
+  "license": "Apache-2.0",
+  "name": "client_golang",
+  "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
+  "version": "0.9.2"
+}
+
